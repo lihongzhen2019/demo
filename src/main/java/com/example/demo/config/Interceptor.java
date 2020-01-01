@@ -21,8 +21,8 @@ public class Interceptor implements WebMvcConfigurer {
 //                registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
 //                .excludePathPatterns("/index.html","/","/user/login","/static/**","/webjars/**");
                 // /**  表示拦截所有路径下的所有请求
-                registry.addInterceptor(new LoginInterceptor())
-                        .addPathPatterns("/api/posts/categories/featured");
+//                registry.addInterceptor(new LoginInterceptor())
+//                        .addPathPatterns("/api/posts/categories/featured");
             }
         };
     }
